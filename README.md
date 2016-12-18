@@ -3,4 +3,6 @@ Better late than never right?
 
 I have literally never touched HTML, CSS, JavaScript, or JQuery before, so this is my first time playing around with it.
 
+I am teaching myself, using this as my guide: https://developer.mozilla.org/en-US/docs/Learn
+
 My objective is to master them enough to create an interactive art website for my Thesis project in Spring 2017.
