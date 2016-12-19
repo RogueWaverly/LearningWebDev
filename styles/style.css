@@ -46,7 +46,7 @@ p, li
 	text-align: left;
 }
 
-img
+img[src]
 {
 	display: block;
 	margin: 0 auto;
@@ -65,4 +65,11 @@ a
 a:hover
 {
 	color: #60DADA;
+}
+
+button
+{
+	color: #60DADA;
+	font-family: 'Roboto Slab', serif;
+	background-color: black;
 }
