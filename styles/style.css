@@ -9,7 +9,7 @@ html
 
 body
 {
-	width: 600px;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: #000000;
 	padding: 0 20px 20px 20px;
@@ -39,11 +39,23 @@ h3
 
 p, li
 {
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	width: 450px;
 	font-size: 16px;
-	line-height: 2;
-	letter-spacing: 1px;
+	line-height: 1.5;
 	font-family: 'Roboto Slab', serif;
 	text-align: left;
+}
+
+div[id="shuffleDiv"]
+{
+	margin: 0 auto;
+	width: 500px;
+	padding: 5px;
+	border: 2px dotted #700ADA;
+	text-align: center;
 }
 
 img[src]
@@ -70,6 +82,12 @@ a:hover
 button
 {
 	color: #60DADA;
+	margin: 5px;
 	font-family: 'Roboto Slab', serif;
 	background-color: black;
+}
+button:hover
+{
+	color: white;
+	background-color: #700ADA;
 }
