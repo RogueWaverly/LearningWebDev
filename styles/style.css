@@ -48,6 +48,16 @@ p, li
 	font-family: 'Roboto Slab', serif;
 	text-align: left;
 }
+p[id="start"]
+{
+	text-align: center;
+	color: green;
+}
+p[id="end"]
+{
+	text-align: center;
+	color: red;
+}
 
 div[id="shuffleDiv"]
 {
@@ -56,6 +66,15 @@ div[id="shuffleDiv"]
 	padding: 5px;
 	border: 2px dotted #700ADA;
 	text-align: center;
+}
+div[id="mazeDiv"]
+{
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 16px;
+	font-family: 'PT Mono', monospace;
+	line-height: 0.75;
 }
 
 img[src]
